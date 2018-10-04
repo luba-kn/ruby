@@ -1,7 +1,11 @@
 class Post < ApplicationRecord
   belongs_to :user
+
+  has_many :comments, as: :commentable
+  has_many :commentators, through: :comments, source: :user
+  
   has_many :marks
-  has_many :comments
+  
   
   validates :user, presence: true
   
@@ -14,9 +18,9 @@ class Post < ApplicationRecord
   
   validates :visible, inclusion: { in: [true, false] }
   
-  def moderators_post
-    Post.where(user: User.where(moderator:true))
-  end
+#  def moderators_post
+#    Post.where(user: User.where(moderator:true))
+#  end
   
 end
 
