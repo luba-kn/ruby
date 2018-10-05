@@ -8,6 +8,16 @@ html
     = stylesheet_link_tag    'application', media: 'all'
     = javascript_include_tag 'application'
   body
-    header  шапка
-    = yield
-    footer  подвал
+    .container
+      header  
+        ul.menu
+          li.menuItem 
+            a.menuLink href=root_path Главная
+          li.menuItem
+            a.menuLink href=about_path Обо мне
+          li.menuItem
+            a.menuLink href=posts_path Блог
+          li.menuItem
+            a.menuLink href=users_path Пользователи
+      = yield
+      footer Все права защищены

@@ -1,0 +1,39 @@
+/* line 5, E:/!Geek/!Ruby/rails/blog/app/assets/stylesheets/posts.scss */
+.postContainer {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #1fb1ff;
+  margin-bottom: 10px;
+  background-color: aliceblue; }
+
+/* line 13, E:/!Geek/!Ruby/rails/blog/app/assets/stylesheets/posts.scss */
+.postTitle {
+  color: cornflowerblue;
+  font-weight: 600;
+  padding: 20px 10px 10px;
+  font-size: 18px; }
+
+/* line 20, E:/!Geek/!Ruby/rails/blog/app/assets/stylesheets/posts.scss */
+.postBody {
+  padding: 10px; }
+
+/* line 24, E:/!Geek/!Ruby/rails/blog/app/assets/stylesheets/posts.scss */
+.postCreator {
+  padding: 10px;
+  font-style: italic; }
+  /* line 27, E:/!Geek/!Ruby/rails/blog/app/assets/stylesheets/posts.scss */
+  .postCreator a {
+    color: darkblue;
+    text-decoration: none; }
+
+/* line 33, E:/!Geek/!Ruby/rails/blog/app/assets/stylesheets/posts.scss */
+.postMethods {
+  background-color: #dae3f1;
+  padding: 10px; }
+  /* line 36, E:/!Geek/!Ruby/rails/blog/app/assets/stylesheets/posts.scss */
+  .postMethods span {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px; }
+
+/*# sourceMappingURL=posts.css.map */

@@ -1,0 +1,42 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.postContainer {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #1fb1ff;
+  margin-bottom: 10px;
+  background-color: aliceblue;
+}
+
+.postTitle {
+  color: cornflowerblue;
+  font-weight: 600;
+  padding: 20px 10px 10px;  
+  font-size: 18px;
+}
+
+.postBody {
+  padding: 10px; 
+}
+
+.postCreator {
+  padding: 10px;
+  font-style: italic;
+  a {
+   color: darkblue;
+    text-decoration: none;
+  }
+}
+
+.postMethods {
+  background-color: #dae3f1; 
+  padding: 10px;
+    span {
+      display: inline-block;
+      padding-left: 20px;
+      padding-right: 20px;
+      
+    }
+}
