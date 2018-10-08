@@ -51,4 +51,41 @@ footer {
   height: 50px;
   box-sizing: border-box; }
 
+/* line 56, E:/!Geek/!Ruby/rails/blog/app/assets/stylesheets/application.scss */
+.form_container {
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid cornflowerblue;
+  border-radius: 15px;
+  padding: 15px;
+  box-sizing: border-box; }
+  /* line 71, E:/!Geek/!Ruby/rails/blog/app/assets/stylesheets/application.scss */
+  .form_container .field input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    box-sizing: border-box; }
+  /* line 80, E:/!Geek/!Ruby/rails/blog/app/assets/stylesheets/application.scss */
+  .form_container .field input[type="checkbox"] {
+    float: left;
+    width: auto; }
+  /* line 86, E:/!Geek/!Ruby/rails/blog/app/assets/stylesheets/application.scss */
+  .form_container .actions {
+    margin: 20px auto 10px; }
+    /* line 89, E:/!Geek/!Ruby/rails/blog/app/assets/stylesheets/application.scss */
+    .form_container .actions input {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 5px;
+      border-radius: 5px;
+      border: 1px solid cornflowerblue;
+      background-color: #1fb1ff; }
+      /* line 97, E:/!Geek/!Ruby/rails/blog/app/assets/stylesheets/application.scss */
+      .form_container .actions input:hover {
+        background-color: cornflowerblue;
+        color: #fff;
+        cursor: pointer; }
+
 /*# sourceMappingURL=application.css.map */

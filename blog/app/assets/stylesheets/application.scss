@@ -52,3 +52,53 @@ footer {
   height: 50px;
   box-sizing: border-box;
 }
+
+.form_container {
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid cornflowerblue;
+  border-radius: 15px;  
+  padding: 15px;
+  box-sizing: border-box;
+    
+  .field {
+    
+    .label {
+      
+      
+    }
+    
+    input {
+          width: 100%; 
+          padding: 5px;
+          border-radius: 5px;
+          border: 1px solid #ccc;
+          outline: none;
+          box-sizing: border-box;
+      }
+    
+    input[type="checkbox"] {
+       float: left;
+        width: auto;
+    }
+  }
+  
+  .actions {
+    margin: 20px auto 10px;
+    
+    input {
+      box-sizing: border-box;
+      width: 100%; 
+      padding: 5px;
+      border-radius: 5px;
+      border: 1px solid cornflowerblue;
+      background-color: #1fb1ff;
+      
+      &:hover {
+        background-color:  cornflowerblue;
+        color: #fff;
+        cursor: pointer;
+      }
+    }
+  }
+}
