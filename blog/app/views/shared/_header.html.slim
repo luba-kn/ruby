@@ -1,0 +1,14 @@
+      
+                
+header
+  ul.menu
+    - if user_signed_in?
+        li.menuItem
+          span.menuLink = t('label.hello') % current_user.name
+        li.menuItem
+          = link_to t('label.log_out'), destroy_user_session_path, { class: 'menuLink' }, method: :delete
+    - else
+        li.menuItem
+          = link_to t('label.log_in'), new_user_session_path, { class: 'menuLink' }
+        li.menuItem
+          = link_to t('label.registration'), new_user_registration_path, { class: 'menuLink' }            
